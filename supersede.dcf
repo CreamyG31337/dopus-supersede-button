@@ -5,7 +5,7 @@
     <icon1>#moveto</icon1>
     <function type="normal">
         <instruction>@filesonly</instruction>
-        <instruction>CreateFolder NAME="SUPERSEDED" NOSEL READAUTO=no</instruction>
+        <instruction>CreateFolder NAME="SUPERSEDED" NOSEL</instruction>
         <instruction>Copy MOVE TO "SUPERSEDED"</instruction>
     </function>
 </button>
