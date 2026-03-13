@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<dcf>
+<button backcol="none" display="both" textcol="none">
+    <label>Supersede</label>
+    <icon1>#moveto</icon1>
+    <function type="normal">
+        <instruction>@filesonly</instruction>
+        <instruction>CreateFolder NAME="SUPERSEDED" NOSEL READAUTO=no</instruction>
+        <instruction>Copy MOVE TO "SUPERSEDED"</instruction>
+    </function>
+</button>
+</dcf>
