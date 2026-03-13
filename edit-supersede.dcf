@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <button backcol="none" display="both" textcol="none">
     <label>Edit &amp; Supersede</label>
-    <icon1>#editwith</icon1>
+    <icon1>#edit</icon1>
     <function type="normal">
         <instruction>@filesonly</instruction>
         <instruction>CreateFolder NAME="{sourcepath$}\SUPERSEDED" NOSEL</instruction>
-        <instruction>Copy TO "{sourcepath$}\SUPERSEDED"</instruction>
+        <instruction>Copy WHENEXISTS=rename TO "{sourcepath$}\SUPERSEDED"</instruction>
         <instruction>"C:\Program Files\Notepad++\notepad++.exe" {allfilepath$}</instruction>
     </function>
 </button>

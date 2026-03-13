@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <button backcol="none" display="both" textcol="none">
     <label>Supersede</label>
-    <icon1>#moveto</icon1>
+    <icon1>#move</icon1>
     <function type="normal">
         <instruction>@filesonly</instruction>
         <instruction>CreateFolder NAME="{sourcepath$}\SUPERSEDED" NOSEL</instruction>
-        <instruction>Copy MOVE TO "{sourcepath$}\SUPERSEDED"</instruction>
+        <instruction>Copy MOVE WHENEXISTS=rename TO "{sourcepath$}\SUPERSEDED"</instruction>
     </function>
 </button>
