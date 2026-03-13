@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<dcf>
+<?xml version="1.0" encoding="UTF-8"?>
 <button backcol="none" display="both" textcol="none">
     <label>Edit &amp; Supersede</label>
     <icon1>#editwith</icon1>
@@ -10,4 +9,3 @@
         <instruction>"C:\Program Files\Notepad++\notepad++.exe" {allfilepath$}</instruction>
     </function>
 </button>
-</dcf>
