@@ -4,8 +4,8 @@
     <icon1>#editwith</icon1>
     <function type="normal">
         <instruction>@filesonly</instruction>
-        <instruction>CreateFolder NAME="SUPERSEDED" NOSEL</instruction>
-        <instruction>Copy TO "SUPERSEDED"</instruction>
+        <instruction>CreateFolder NAME="{sourcepath$}\SUPERSEDED" NOSEL</instruction>
+        <instruction>Copy TO "{sourcepath$}\SUPERSEDED"</instruction>
         <instruction>"C:\Program Files\Notepad++\notepad++.exe" {allfilepath$}</instruction>
     </function>
 </button>
